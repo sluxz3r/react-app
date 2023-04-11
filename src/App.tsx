@@ -22,7 +22,7 @@ function App() {
             <div className="h-[50px] w-[50px] lg:h-[90px] mr-2 lg:mr-[26px] lg:w-[90px] bg-[#EDF2F7] text-xl lg:text-[40px] leading-[54px] font-bold rounded-full flex justify-center items-center">
               J
             </div>
-            <div>
+            <div className="flex flex-col md:gap-y-2">
               <div className="lg:text-[40px] text-lg md:text-xl font-semibold text-[#262626]">
                 John
               </div>
@@ -111,7 +111,7 @@ function App() {
           </div>
         </div>
         {/* checkbox */}
-        <div className="flex gap-x-3 md:gap-x-[25px] items-start">
+        <div className="flex md:items-center gap-x-3 md:gap-x-[25px] items-start">
           <input
             className="h-4 w-4 md:h-[30px] md:w-[30px] mt-2 ring-2 rounded-sm ring-black"
             type="checkbox"
