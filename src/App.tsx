@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="bg-[#FFFFFF] font-noto tracking-[-0.3px]">
       <div className="flex bg-[#262626]  px-[50px] pt-[34px] pb-[47px]">
-        <div className="w-[570px] font-bold text-[50px] text-white">
+        <div className="w-[570px] lg:w-full font-bold text-[50px] text-white">
           Choose the form of payment
         </div>
         <div className="flex-1 py-6 flex justify-center text-white">
