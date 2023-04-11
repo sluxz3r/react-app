@@ -38,7 +38,7 @@ function App() {
           </div>
         </div>
         {/* Selected Service section */}
-        <div className="flex flex-col gap-y-5 lg:gap-y-[40px]">
+        <div className="flex flex-col gap-y-5 md:gap-y-[40px]">
           <div className="text-2xl lg:text-[40px] font-bold">
             Selected service
           </div>
@@ -72,7 +72,7 @@ function App() {
             </div>
           </div>
           {/* Details section */}
-          <div className="flex flex-col gap-y-2 lg:gap-y-5">
+          <div className="flex flex-col gap-y-2 md:gap-y-5">
             <div className="font-semibold text-xl md:text-[30px]">
               Enter your location
             </div>
@@ -82,7 +82,7 @@ function App() {
               placeholder="Enter address"
             />
           </div>
-          <div className="flex flex-col gap-y-2 lg:gap-y-5">
+          <div className="flex flex-col gap-y-2 md:gap-y-5">
             <div className="font-semibold text-xl md:text-[30px]">
               Note (optional)
             </div>
@@ -95,7 +95,7 @@ function App() {
         </div>
         {/* Payment section */}
         <div className="flex flex-col gap-y-[50px]">
-          <div className="text-3xl md:text-[50px] font-bold">
+          <div className="text-3xl md:text-4xl lg:text-[50px] font-bold">
             Choose a way to pay
           </div>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-6">
